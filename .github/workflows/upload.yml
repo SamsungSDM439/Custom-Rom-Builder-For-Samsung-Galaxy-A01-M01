@@ -9,15 +9,15 @@ on:
       GSI:
         description: 'direct link for Gsi image '
         required: true
-        default: 'https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20230715-UNOFFICIAL-a64_bgN.img.xz'        
+        default: 'https://sourceforge.net/projects/ancientrom/files/gsi/V7.3-Hotfix/AncientOS-T-Shield-v7.3-arm64_bgN-Steel-20231001.img.xz'        
       ARCH:
         description: 'Arm32 or Arm64'
         required: true
-        default: '32'                
+        default: '64'                
       NAME:
         description: 'Rom Name'
         required: true
-        default: 'LineageOS_19.1_SDM439_ARM32_Gapps'                
+        default: 'AncientOS_7.3_SDM439_ARM64_Gapps'                
 
 jobs:
   Build:
